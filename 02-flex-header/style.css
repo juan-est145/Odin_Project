@@ -10,6 +10,9 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  flex: 1;
+  align-self: center;
+  margin: 8px 20px;
 }
 
 ul {
