@@ -21,3 +21,10 @@ div.appendChild(h1);
 const   secondParagraph = document.createElement("p");
 secondParagraph.textContent = "ME TOO!";
 div.appendChild(secondParagraph);
+
+const   btn = document.querySelector("#btn");
+
+btn.addEventListener("click", () =>
+{
+    alert("Hello World!");
+});
