@@ -24,7 +24,8 @@ div.appendChild(secondParagraph);
 
 const   btn = document.querySelector("#btn");
 
-btn.addEventListener("click", () =>
+btn.addEventListener("click", (e) =>
 {
     alert("Hello World!");
+    e.target.style.background = "green";
 });
