@@ -23,9 +23,18 @@ secondParagraph.textContent = "ME TOO!";
 div.appendChild(secondParagraph);
 
 const   btn = document.querySelector("#btn");
-
 btn.addEventListener("click", (e) =>
 {
     alert("Hello World!");
     e.target.style.background = "green";
+});
+
+const   buttons = document.querySelectorAll(".buttons");
+buttons.forEach((item) =>
+{
+    item.addEventListener("click", (e) =>
+    {
+        alert("I now change my color");
+        e.target.style.background = "cyan";
+    })
 });
