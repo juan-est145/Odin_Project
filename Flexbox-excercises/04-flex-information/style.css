@@ -14,6 +14,17 @@ img {
   margin-bottom: 32px;
 }
 
+.images
+{
+  display: flex;
+  gap: 52px;
+}
+
+.info
+{
+  flex-wrap: wrap;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
