@@ -56,6 +56,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  justify-self: flex-end;
 }
 
 button.continue {
@@ -80,4 +81,11 @@ button.cancel {
 {
   font-weight: bold;
   align-self: center;
+}
+
+.right-button
+{
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
 }
