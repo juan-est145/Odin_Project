@@ -49,6 +49,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+  font-weight: bold;
 }
 
 input {
@@ -71,7 +73,8 @@ input {
 .footer
 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: stretch;
-  justify-content: flex-end;
+  justify-content: space-between;
+  background-color: #eeeeee;
 }
