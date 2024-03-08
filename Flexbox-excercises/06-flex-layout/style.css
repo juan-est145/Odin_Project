@@ -12,10 +12,29 @@ ul
   list-style-type: none;
 }
 
+li
+{
+ display: inline;
+ 
+}
+
 a
 {
   text-decoration: none;
   color: black;
+}
+
+.header
+{
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  
+}
+
+.left_links
+{
+  min-width: 500px;
 }
 
 img {
