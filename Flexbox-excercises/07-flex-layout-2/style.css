@@ -58,6 +58,7 @@ a
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
+  flex-grow: 1;
 }
 
 .card {
@@ -65,4 +66,8 @@ a
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   flex-wrap: wrap;
+  flex-basis: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  max-height: 300px;
 }
