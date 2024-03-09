@@ -36,6 +36,21 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 16px;
+  display: block;
 }
 
 .card {
